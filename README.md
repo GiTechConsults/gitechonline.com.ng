@@ -1,2 +1,2 @@
-# gitechonline.com.ng
-GiTech Official Website
+# GiTech Official Website
+gitechonline.com.ng
