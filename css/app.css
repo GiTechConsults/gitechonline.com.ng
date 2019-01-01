@@ -93,9 +93,22 @@ p{
 ---------------------------------*/
 
 .header{
-	text-align:center;
-	background:url(../img/img-bg.jpeg) left top repeat;
-	padding:180px 0;
+	background:url(../img/img-bg.jp) left top repeat;
+	padding-top: 50px 0;
+	background-size: cover;
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+	text-align: center;
 }
 .logo{
 	width:130px;
@@ -107,7 +120,7 @@ p{
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
+	color:#000;
 }
 
 .we-create{
@@ -769,7 +782,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background: #000;
 	padding:35px 0 35px;
 }
 .footer-logo{
