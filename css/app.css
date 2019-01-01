@@ -94,6 +94,7 @@ p{
 
 .header{
 	padding-top: 3em;
+	background: #ebf0fa;
 	background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
@@ -122,24 +123,24 @@ p{
 	color:#000;
 }
 
-.we-create{
+.descr{
 	padding:0;
 	margin:35px 0 55px;
 }
 .wp-pic{
 	margin-bottom:20px;
 }
-.we-create li{
+.descr li{
 	display:inline-block;
 	font-family: 'Poppins', sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: rgb(90, 90, 90);
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
 }
-.we-create li:first-child{
+.descr li:first-child{
 	background:none;
 }
 
@@ -160,18 +161,17 @@ color: #fff;
 	font-weight:400;
 	font-family: 'Poppins', sans-serif;
 	display:inline-block;
-	border-radius:3px;
+	border-radius:30px;
 	text-transform:uppercase;
 	line-height:25px;
 	margin-bottom:20px;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
-	background:#fff;
+	color:#fff !important;
+	background:#7cc576;
+	background: -webkit-linear-gradient(to right, #7cc576, #4e54c8);
+    background: linear-gradient(to right, #7cc576, #4e54c8);
 }
 
 .link:active, .link:focus {
@@ -184,10 +184,8 @@ color: #fff;
 ---------------------------------*/
 .main-nav-outer{
 	padding:0px;
-	border-bottom:1px solid #dddddd;
-	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background:#fff;
+	background:#ebf0fa;
 }
 .main-nav{
 	text-align:center;
