@@ -1,3 +1,4 @@
+//
 $(document).ready(function(e) {
 
     $('#test').scrollToFixed();
@@ -15,14 +16,14 @@ type: 'image'
 });
 
 
-
+//
 wow = new WOW({
     animateClass: 'animated',
     offset: 100
 });
 wow.init();
 
-
+//
 $(window).load(function() {
 
     $('.main-nav li a, .servicelink').bind('click', function(event) {
@@ -45,7 +46,7 @@ $(window).load(function() {
 })
 
 
-
+//
 $(window).load(function() {
 
 
