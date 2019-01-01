@@ -93,8 +93,7 @@ p{
 ---------------------------------*/
 
 .header{
-	background:url(../img/img-bg.jp) left top repeat;
-	padding-top: 50px 0;
+	padding-top: 3em;
 	background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
