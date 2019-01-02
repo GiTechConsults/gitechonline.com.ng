@@ -1,0 +1,22 @@
+{
+  "name": "gitech",
+  "version": "1.0.0",
+  "description": "Official Website\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[GiTech Official Website",
+  "main": "sw.js",
+  "scripts": {
+    "test": "npm gitech"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiTechConsults/gitechonline.com.ng.git"
+  },
+  "keywords": [
+    "gitech"
+  ],
+  "author": "GiTech Consults",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiTechConsults/gitechonline.com.ng/issues"
+  },
+  "homepage": "https://github.com/GiTechConsults/gitechonline.com.ng#readme"
+}
