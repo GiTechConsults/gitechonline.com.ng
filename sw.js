@@ -26,6 +26,7 @@ self.addEventListener('fetch', function (event) {
                             '/img/logo-social.png',
                             '/manifest.js',
                             '/https://use.fontawesome.com/releases/v5.6.3/css/all.css',
+                            '/https://fonts.googleapis.com/css?family=Poppins:200,300,400,500',
                         ]);
                     })
                 );
