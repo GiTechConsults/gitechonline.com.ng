@@ -20,9 +20,12 @@ self.addEventListener('fetch', function (event) {
                             '/index.html?homescreen=1',
                             '/?homescreen=1',
                             '/css/app.css',
+                            '/css/app-responsive.css',
                             '/js/app.js',
-                            '/images/fav.png',
+                            '/img/logo.png',
+                            '/img/logo-social.png',
                             '/manifest.js',
+                            '/https://use.fontawesome.com/releases/v5.6.3/css/all.css',
                         ]);
                     })
                 );
