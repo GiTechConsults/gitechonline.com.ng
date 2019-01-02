@@ -713,9 +713,6 @@ border: 2px solid #fff;
 	font-weight:400;
 	border: 0;
 	border-radius:30px;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
 }
 
 .input-btn:hover{
