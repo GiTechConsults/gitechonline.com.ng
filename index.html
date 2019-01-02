@@ -542,17 +542,17 @@
 	<script src="js/contactform.js"></script>
 	<script src="js/app.js"></script>
 	<script>
-			if ('serviceWorker' in navigator) {
-				window.addEventListener('load', function () {
-					navigator.serviceWorker.register('/sw.js')
-						.then(function () {
-							console.log("Service Worker Registered");
-						});
-				});
-			}
-			else {
-				console.log("error! Service Worker not Registered");
-			}
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function () {
+				navigator.serviceWorker.register('/sw.js')
+					.then(function () {
+						console.log("Service Worker Registered");
+					});
+			});
+		}
+		else {
+			console.log("error! Service Worker not Registered");
+		}
 	</script>
 
 </body>
