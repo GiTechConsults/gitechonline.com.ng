@@ -405,15 +405,14 @@ img {
 	background:url(../img/section-bg1.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
-	text-align:center;
+	text-align:left;
 }
 .client-part-haead{
 	color:#fdfdfd;
-	font-size:28px;
+	font-size:18px;
 	line-height:41px;
 	margin:30px 0 10px;
-	font-family: ''Open Sans',sans-serif';
-	font-style: italic;
+	font-family: 'Poppins', sans-serif;
 }
 .client{
 	padding:0;
@@ -443,15 +442,15 @@ img {
 }
 .quote-right{
 	font-style:normal;
-	width:68px;
-	height:68px;
+	width:50px;
+	height:50px;
 	margin:0 auto;
 	border:2px solid #7cc576;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
-	font-size:27px;
+	font-size:20px;
 	color:#7cc576;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
