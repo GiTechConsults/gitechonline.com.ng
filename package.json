@@ -1,7 +1,7 @@
 {
   "name": "gitech",
   "version": "1.0.0",
-  "description": "Official Website\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[GiTech Official Website",
+  "description": "GiTech Official Website",
   "main": "sw.js",
   "scripts": {
     "test": "npm gitech"
