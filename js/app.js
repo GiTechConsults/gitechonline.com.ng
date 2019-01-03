@@ -1,38 +1,39 @@
-//
-$(document).ready(function(e) {
+$(document).ready(function (e) {
 
+    //Setup carousel delay
     $('#quote-carousel').carousel({
         pause: true,
         interval: 5000,
-      });
-      
+    });
 
+    //Setup scroll to fix
     $('#test').scrollToFixed();
-    $('.res-nav_click').click(function() {
+    $('.res-nav_click').click(function () {
         $('.main-nav').slideToggle();
         return false
 
     });
 
-$('.Portfolio-box').magnificPopup({
-delegate: 'a',
-type: 'image'
-});
+    //stup magnific popup
+    $('.Portfolio-box').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+    });
 
 });
 
 
-//
+//setup wow js animation
 wow = new WOW({
     animateClass: 'animated',
     offset: 100
 });
 wow.init();
 
-//
-$(window).load(function() {
+//setup nav scroll animation
+$(window).load(function () {
 
-    $('.main-nav li a, .servicelink').bind('click', function(event) {
+    $('.main-nav li a, .servicelink').bind('click', function (event) {
         var $anchor = $(this);
 
         $('html, body').stop().animate({
@@ -52,8 +53,8 @@ $(window).load(function() {
 })
 
 
-//
-$(window).load(function() {
+//setup portfolio stacks animation
+$(window).load(function () {
 
 
     var $container = $('.portfolioContainer'),
@@ -70,7 +71,7 @@ $(window).load(function() {
         }
     });
 
-    $(window).smartresize(function() {
+    $(window).smartresize(function () {
         // check if columns has changed
         var currentColumns = Math.floor(($body.width() - 30) / colW);
         if (currentColumns !== columns) {
@@ -82,7 +83,7 @@ $(window).load(function() {
         }
 
     }).smartresize(); // trigger resize to set container width
-    $('.portfolioFilter a').click(function() {
+    $('.portfolioFilter a').click(function () {
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 
