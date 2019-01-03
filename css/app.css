@@ -3,7 +3,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500');
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 
 /* Float Elements
 ---------------------------------*/
@@ -471,69 +471,113 @@ img {
 	padding: 55px 0;
 	text-align: left;
 }
-
-.client-part-haead {
-	color: #fdfdfd;
-	font-size: 18px;
-	line-height: 41px;
-	margin: 30px 0 10px;
-	font-family: 'Poppins', sans-serif;
-}
-
-.client {
-	padding: 0;
-	margin: 20px 0 0;
-	list-style: none;
-	text-align: center;
-}
-
-.client li {
-	display: inline;
-	margin: 0 15px;
-}
-
-.client li a {
-	display: inline-block;
-}
-
-.client li a img {
-	margin-bottom: 15px;
-	border-radius: 50%;
-}
-
-.client li a:hover {
-	text-decoration: none;
-}
-
-.client li a h3 {
-	color: #ffffff;
-}
-
-.client li a span {
-	color: #f1f1f1;
-}
-
-.quote-right {
-	font-style: normal;
-	width: 50px;
-	height: 50px;
-	margin: 0 auto;
-	border: 2px solid #7cc576;
-	border-radius: 50%;
-	display: block;
-	line-height: 68px;
-	text-align: center;
-	font-size: 20px;
-	color: #7cc576;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-}
-
-.quote-right:hover {
+.client-part h2 {
 	color: #fff;
-	border: 2px solid #fff;
+}
+.client-part p {
+	color: #fafafa
+}
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .c-logo-part {
