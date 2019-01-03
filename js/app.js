@@ -1,6 +1,12 @@
 //
 $(document).ready(function(e) {
 
+    $('#quote-carousel').carousel({
+        pause: true,
+        interval: 5000,
+      });
+      
+
     $('#test').scrollToFixed();
     $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
