@@ -34,7 +34,7 @@ wow.init();
 $(window).load(function () {
 
     $('.main-nav li a, .servicelink').bind('click', function (event) {
-        var $anchor = $(this);
+        let $anchor = $(this);
 
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 102
@@ -57,7 +57,7 @@ $(window).load(function () {
 $(window).load(function () {
 
 
-    var $container = $('.portfolioContainer'),
+    let $container = $('.portfolioContainer'),
         $body = $('body'),
         colW = 375,
         columns = null;
@@ -73,7 +73,7 @@ $(window).load(function () {
 
     $(window).smartresize(function () {
         // check if columns has changed
-        var currentColumns = Math.floor(($body.width() - 30) / colW);
+        let currentColumns = Math.floor(($body.width() - 30) / colW);
         if (currentColumns !== columns) {
             // set new column count
             columns = currentColumns;
@@ -87,7 +87,7 @@ $(window).load(function () {
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 
-        var selector = $(this).attr('data-filter');
+        let selector = $(this).attr('data-filter');
         $container.isotope({
 
             filter: selector,
