@@ -17,13 +17,13 @@ self.addEventListener('fetch', function (event) {
                     caches.open('cache').then(function (cache) {
                         return cache.addAll([
                             '/index.html',
-                            '/index.html?homescreen = 1',
-                            '/?homescreen = 1',
+                            '/index.html?homescreen=1',
+                            '/?homescreen=1',
                             '/css/app.css',
-                            '/css/app - responsive.css',
+                            '/css/app-responsive.css',
                             '/js/app.js',
                             '/img/logo.png',
-                            '/img/logo - social.png',
+                            '/img/logo-social.png',
                             '/manifest.js',
                             '/https://use.fontawesome.com/releases/v5.6.3/css/all.css',
                             '/https://fonts.googleapis.com/css?family=Poppins:200,300,400,500',
